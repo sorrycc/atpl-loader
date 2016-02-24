@@ -1,11 +1,10 @@
 'use strict';
 
-var atpl-loader = require('..');
+var atplLoader = require('..');
 
-describe('atpl-loader', function() {
+describe('atpl-loader', function () {
 
-  it('normal', function() {
-
+  it('normal', function () {
   });
 
 });
