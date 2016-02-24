@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "webpack loader for atpl.",
   "main": "index",
-  "dependencies": {
-    "anima-template": "~1.0.12"
-  },
   "devDependencies": {
     "istanbul": "0",
     "jshint": "2",
@@ -22,5 +19,8 @@
   "license": "MIT",
   "scripts": {
     "test": "make test"
+  },
+  "dependencies": {
+    "primer-template": "^1.1.0"
   }
 }

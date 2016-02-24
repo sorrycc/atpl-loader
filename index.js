@@ -1,8 +1,9 @@
 'use strict';
 
-var atpl = require('anima-template');
+var atpl = require('primer-template');
 
-module.exports = function(source) {
+module.exports = function (source) {
   this.cacheable();
-  return atpl(source);
+
+  return atpl(source, this.resourcePath);
 };
